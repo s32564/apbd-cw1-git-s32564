@@ -26,10 +26,17 @@ public class MainClass
 
         int[] values = { number, number2 };
         Console.WriteLine($"The average number is: {CalculateAverage(values)}");
+        Console.WriteLine($"The maximal number is: {CalculateMax(values)}");
+
     }
 
     private static double CalculateAverage(int[] values)
     {
         return values.Average();
+    }
+
+    private static int CalculateMax(int[] values)
+    {
+        return values.Max();
     }
 }
