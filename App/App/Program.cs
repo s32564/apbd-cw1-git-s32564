@@ -40,4 +40,9 @@ public class MainClass
 
         return (double) sum / counter;
     }
+
+    private static int CalculateMax(int[] values)
+    {
+        return values.Max();
+    }
 }
