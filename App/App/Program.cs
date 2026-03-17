@@ -39,4 +39,9 @@ public class MainClass
     {
         return values.Max();
     }
+
+    private static int CalculateMin(int[] values)
+    {
+        return values.Min();
+    }
 }
