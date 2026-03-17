@@ -30,14 +30,6 @@ public class MainClass
 
     private static double CalculateAverage(int[] values)
     {
-        int counter = 0;
-        int sum = 0;
-        foreach (int num in values)
-        {
-            counter++;
-            sum += num;
-        }
-
-        return (double) sum / counter;
+        return values.Average();
     }
 }
